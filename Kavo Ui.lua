@@ -140,10 +140,10 @@ end)
 local LibName = tostring(math.random(1, 100))..tostring(math.random(1,50))..tostring(math.random(1, 100))
 
 function Kavo:ToggleUI()
-    if game.CoreGui[LibName].Enabled then
-        game.CoreGui[LibName].Enabled = false
+    if game.CoreGui["AstroWare"].Enabled then
+        game.CoreGui["AstroWare"].Enabled = false
     else
-        game.CoreGui[LibName].Enabled = true
+        game.CoreGui["AstroWare"].Enabled = true
     end
 end
 
