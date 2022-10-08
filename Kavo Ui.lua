@@ -1,4 +1,5 @@
-if _G.Enabled == "true\n" then 
+_G.Enabled = tostring(game:HttpGet("https://raw.githubusercontent.com/TheActingZont345/AstroWare-X/main/Enabled"))
+if _G.Enabled == "false\n" then 
 else
     print("Script Not Active")
     wait(2)
