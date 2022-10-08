@@ -1,3 +1,10 @@
+if _G.Enabled == "true\n" then 
+else
+    print("Script Not Active")
+    wait(2)
+    game:GetService("Players").LocalPlayer:Kick("\nScript Isnt Enabled")
+    return
+end
 local Kavo = {}
 
 local tween = game:GetService("TweenService")
