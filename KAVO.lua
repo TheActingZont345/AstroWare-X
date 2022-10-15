@@ -1,11 +1,3 @@
-_G.Enabled = tostring(game:HttpGet("https://raw.githubusercontent.com/TheActingZont345/AstroWare-X/main/Enabled"))
-if _G.Enabled == "Enabled\n" then 
-else
-    print("Script Not Active")
-    wait(2)
-    game:GetService("Players").LocalPlayer:Kick(" \nScript Isnt Enabled")
-    return
-end
 local Kavo = {}
 
 local tween = game:GetService("TweenService")
