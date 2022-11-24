@@ -8,7 +8,7 @@ local Solaris = Instance.new("ScreenGui")
 Solaris.Name = "AstroWareX"
 Solaris.Parent = game.CoreGui
 Solaris.ZIndexBehavior = Enum.ZIndexB
-ehavior.Sibling
+Solaris.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local NotificationHolder = Instance.new("ScreenGui")
 NotificationHolder.Name = "notiHolder"
