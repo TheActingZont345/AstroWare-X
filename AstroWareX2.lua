@@ -1,5 +1,5 @@
-if game:GetService("CoreGui"):FindFistChild("AstroWareX) then
-    game:GetService("CoreGui"):FindFistChild("AstroWareX):Destroy()
+if game:GetService("CoreGui"):FindFistChild("AstroWareX") then
+    game:GetService("CoreGui"):FindFistChild("AstroWareX"):Destroy()
 end
 --https://raw.githubusercontent.com/Stebulous/solaris-ui-lib/main/source.lua
 
