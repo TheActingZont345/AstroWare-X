@@ -1,3 +1,6 @@
+if game:GetService("CoreGui"):FindFirstChild("AstroWareX") then
+    game:GetService("CoreGui"):FindFirstChild("AstroWareX"):Destroy()
+end
 --https://raw.githubusercontent.com/Stebulous/solaris-ui-lib/main/source.lua
 
 -- This User Interface Library is brought to you by Solaris Software.
