@@ -1,3 +1,4 @@
+return
 if game:GetService("CoreGui"):FindFirstChild("AstroWareX") then
     game:GetService("CoreGui"):FindFirstChild("AstroWareX"):Destroy()
 end
