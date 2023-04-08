@@ -1,4 +1,3 @@
-game:GetService("Players").LocalPlayer:Kick("Stop Tryna Use My Source From zont#0001")
 if game:GetService("CoreGui"):FindFirstChild("AstroWareX") then
     game:GetService("CoreGui"):FindFirstChild("AstroWareX"):Destroy()
 end
